@@ -1,5 +1,8 @@
-# PZSP2 project
-This is a repo for PZSP2 project.
+# multi-objective-evolutionary-network-routing
+Multi-objective evolutionary algorithms for routing in telecommunication networks. Given a network topology (e.g. from SNDlib) and a set of traffic intents (demands between nodes), the project searches for sets of paths that trade off throughput, packet loss, delay and jitter, and returns a Pareto front of optimal solutions.
+
+- **Algorithms (C++):** SPEA2, INSGA, and NSGA-II.
+- **CLI (Python):** parses SNDlib networks, generates full-mesh topologies and intents, approximates true Pareto fronts, compares the algorithms, and tests metric convergence and computational complexity, with plots.
 
 ## Table of contents
 1. [Project Requirements](./documentation/requirements.md)
